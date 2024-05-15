@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f6fa;
+}
+
+nav {
+    top: 10px;
+    bottom: 0px;
+    left: 20px;
+    height: 95%;
+    position: absolute;
+    width: 90px;
+    overflow: hidden;
+    background-color: #002b7a;
+    color: white;
+    border-radius: 20px;
+    float: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-img {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-item {
+    
+}
+
+.first-nav-item {
+    margin-bottom: 50px;
+    margin-top: 25px;
+    /* margin-left: 37px; */
+}
+
+.last-nav-item {
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+i {
+    height: 70px;
+    width: 70px;
+}
+
+.search-area {
+    width: 70%;
+}
+
+
+#search-bar {
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    margin-left: 140px;
+    margin-top: 30px;
+    border-radius: 60px; 
+    padding: 30px;
+}
+
+#search-bar:hover, #search-bar:focus {
+    width: 600px;
+    background-color: rgba(159, 159, 143, 0.892);
+}
+
+
+.send-money {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #8b8c8f;
+    width: 25%;
+}
+
+#sent-money-details {
+    background-color: white;
+    width: 520px;
+    height: 170px;
+    margin-left: 150px;
+    border-radius: 30px;
+}
+
+#sent-money-amount {
+    margin-left: 350px;
+     margin-top: -50px; 
+    /* padding-top: 10px; */
+    height: 60px;
+}
+
+#amount-heading {
+    font-weight: lighter;
+    color: #838383;
+    margin-left: 54px;
+}
+
+#amount-value {
+    color: #838383;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#active-balance {
+    margin-left: 30px;
+    width: 250px;
+    margin-top: 20px;
+}
+
+#active-balance-heading {
+    font-weight: lighter;
+    color: #838383;
+    width: 100px;
+    
+}
+
+#active-balance-amount {
+    font-weight: bold;
+    font-size: larger;
+    color: #838383;
+    margin-bottom: 10px;
+    width: 90px;
+}
+
+#send-button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1d98ff;
+    color: white;
+}
+
+#send-money-button {
+    width: 70px;
+    margin-left: 350px;
+    width: 130px;
+    margin-top: -50px;
+}
+
+#monthly-balance-details {
+    margin-left: 680px;
+    margin-top: -170px;
+    width: 420px;
+    height: 170px;
+    background-color:  #002b7a;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#monthly-balance-heading {
+    color: white;
+    font-weight: lighter;
+    width: 150px;
+    font-size: 20px;
+}
+
+#monthly-balance-amount {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 45px;
+}
+
+#balance-analytic-section {
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 450px;
+    height: 300px;
+}
+
+#balance-analytic-heading {
+    color: #8b8c8f;
+}
+
+#balance-analytic-img {
+    width: 450px;
+    height: 269px;
+    border-radius: 60px;
+}
+
+#investment-section {
+    width: 400px;
+    height: 300px;
+    margin-left: 680px;
+    margin-top: -300px;
+}
+
+#investment-section-heading {
+    color: #8b8c8f
+}
+
+#investment-1 {
+    width: 450px;
+    padding: 10px;
+    height: 83px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+#investment-2 {
+    margin-top: 10px;
+    width: 450px;
+    height: 83px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+#investment-3 {
+    margin-top: 10px;
+    width: 450px;
+    height: 83px;
+    border-radius: 40px;
+    background-color: white;
+}
+
+#apple-img {
+    width: 20px;
+    height: 20px;
+    margin: 25px 10px;
+}
+
+.investment-name {
+    color: black;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.investment-percentage {
+    color: lightgreen;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+#side-bar {
+    background-color: white;
+    height: 700px;
+    width: 320px;
+    margin-left: 78%;
+    margin-top: -685px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+#greetings {
+    color: black;
+    font-weight: bolder;
+}
+
+#welcome-msg {
+    color: #8b8c8f;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#my-card-section {
+    margin: 15px;
+}
+
+#my-card-heading {
+    font-weight: 700;
+    height: 35px;
+}
+
+#add-icon {
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#credit-card-img {
+    width: 90px;
+    height:80px;
+}
+
+#credit-card-amount {
+    font-weight: bolder;
+    font-size: x-large;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -75px;
+}
+
+#active-balance-heading-CC {
+    font-weight: lighter;
+    color: #838383;
+    font-size: 15px;
+}
+
+#recent-transaction-section {
+    margin-top: 25px;
+    padding: 20px;
+}
+
+#recent-transaction-heading {
+    font-weight: bold;
+    
+}
+
+#transaction-1 {
+   
+}
+
+.name-of-transaction {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 135px;
+}
+
+.transaction-amount-credit {
+    color: green;
+    font-weight: bold;
+    width: 80px;
+    margin-left: 180px;
+    margin-top: -23px;
+}
+
+.transaction-amount-debit {
+    color: red;
+    font-weight: bold;
+    width: 80px;
+    margin-left: 180px;
+    margin-top: -23px;
+}
+
+.date-of-transaction {
+    color: #838383;
+    font-weight: light;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+#find-us-heading {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+#location-img {
+    height: 175px;
+    width: 280px;
+    margin-top: 10px;
+    /* margin: 10px 45px; */
+}

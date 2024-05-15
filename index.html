@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="first-nav-item">
+                <a href="#" >
+                    <i class="fa-solid fa-p"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#" >
+                    <i class="fa-solid fa-boxes-stacked"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <i class="fa-solid fa-chart-simple"></i>
+            </li>
+            <li class="nav-item">
+                <a href="" >
+                    <i class="fa-regular fa-file"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" >
+                    <i class="fa-regular fa-user"></i>
+
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" >
+                    <i class="fa-regular fa-comment"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="" >
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+            </li>
+            <li class="last-nav-item">
+                <img src="headphone-person.jpg" alt="image" class="nav-img">
+            </li>
+        </ul>
+    </nav>
+
+                
+    <div class="search-area">
+        <form action="" class="input-form">
+                        <!-- <i class="fa-solid fa-magnifying-glass" id="search-icon"></i> -->
+            <input type="text" placeholder="Search Transactions..." name="search-query" id="search-bar">
+        </form>
+    </div>
+            
+                    
+                
+               
+                  
+    <h2 class="send-money">Send Money</h2>
+
+    <div id="sent-money-details">
+
+     
+        <div class="btn-group ms-4 mt-4 bs-primary bs-primary-rgb">
+            <button type="button" class="btn btn-danger dropdown-toggle " data-bs-toggle="dropdown" aria-expanded="false">
+            Credit Cards
+            </button>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">credit card 1</a></li>
+            <li><a class="dropdown-item" href="#">credit card 2</a></li>
+            <li><a class="dropdown-item" href="#">credit card 3</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Add new credit card</a></li>
+            </ul>
+        </div>
+
+        <div id="sent-money-amount">
+            <div id="amount-heading">Amount</div>
+            <div id="amount-value">$800.00</div>
+        </div>
+        
+        <div id="active-balance">
+            <div id="active-balance-heading">Active Balance</div> 
+            <div id="active-balance-amount">$18,350</div>
+        </div>
+
+        <div id="send-money-button"><button id="send-button">Send Money</button></div>
+    </div>
+
+         
+        
+   
+    <div id="monthly-balance-details">
+        <div id="monthly-balance-heading">Monthly Balance</div>
+        <div id="monthly-balance-amount">$6142.40</div>
+    </div>
+         
+    
+
+    <div id="balance-analytic-section">
+        <h2 id="balance-analytic-heading">Balance Analytic</h2>
+        <img src="Line-Graph.png" alt="Analytic-img" id="balance-analytic-img">
+    </div>
+
+    <div id="investment-section">
+        <h2 id="investment-section-heading">Investment</h2>
+        <div id="investment-1">
+            <img src="apple-logo.png" alt="Apple" id="apple-img">
+            <span class="investment-name">Apple</span>
+            <span class="investment-amount">4,703.98</span>
+            <span class="investment-percentage">+19.77</span>
+        </div>
+
+        <div id="investment-2">
+            <img src="Facebook-Logo.png" alt="Apple" id="apple-img">
+            <span class="investment-name">Facebook</span>
+            <span class="investment-amount">2,421.40</span>
+            <span class="investment-percentage">+19.77</span>
+        </div>
+
+        <div id="investment-3">
+            <img src="Google__G__logo.svg.png" alt="Apple" id="apple-img">
+            <span class="investment-name">Google</span>
+            <span class="investment-amount">1,203.78</span>
+            <span class="investment-percentage">+19.77</span>
+        </div>
+    </div>
+
+    <div id="side-bar">
+        <span id="greetings">👋Hello, Barly Vallendito</span><br>
+        <span id="welcome-msg">Welcome to pocket dashboard</span>
+
+        <div id="my-card-section">
+            <div id="my-card-heading">My Card
+                <i class="fas fa-plus" id="add-icon"></i>
+            </div>
+            
+
+            <img src="credit_card.webp" alt="credit-card" id="credit-card-img">
+
+            <div id="credit-card-amount">
+                $ 18,250
+                <span id="active-balance-heading-CC">Active balance</span>
+            </div>
+        </div>
+
+        <div id="recent-transactions-section">
+            <div id="recent-transaction-heading">Recent Transactions</div>
+
+            <div id="Transaction-1">
+                <div class="name-of-transaction">Paypal LTD</div>
+                <div class="transaction-amount-credit">+$450.00</div>
+                <div class="date-of-transaction">08 March 2023</div>
+            </div>
+
+            <div id="Transaction-2">
+                <div class="name-of-transaction">roketto coffee</div>
+                <div class="transaction-amount-debit">-$106.29</div>
+                <div class="date-of-transaction">10 March 2023</div>
+            </div>
+
+            <div id="Transaction-3">
+                <div class="name-of-transaction">UI kit Sales</div>
+                <div class="transaction-amount-credit">+$241.00</div>
+                <div class="date-of-transaction">12 March 2023</div>
+            </div>
+
+        </div>
+
+        <div id="find-us">
+            <div id="find-us-heading">Find Us</div>
+            <img src="location-img.png" alt="location" id="location-img">
+        </div>
+    </div>
+    
+</body>
+</html>
